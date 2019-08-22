@@ -1,0 +1,9 @@
+sudo: required
+dist: trusty
+language: cpp
+branches:
+  only:
+  - clang_format
+
+script:
+  - sh clang_format_test.sh
